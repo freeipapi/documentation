@@ -2,7 +2,8 @@
   "openapi": "3.1.0",
   "info": {
     "title": "OpenAPI FreeIPAPI",
-    "description": "Free, Fast and Reliable IP Geolocation API"
+    "description": "Free, Fast and Reliable IP Geolocation API",
+    "version": "1.0.0"
   },
   "servers": [
     {
@@ -122,9 +123,15 @@
     },
     "securitySchemes": {
       "bearerAuth": {
-        "type": "https",
+        "type": "http",
         "scheme": "bearer"
       }
     }
-  }
+  },
+  "jsonSchemaDialect": "https://spec.openapis.org/oas/3.1/dialect/base",
+  "webhooks": {},
+  "externalDocs": {
+    "url": "docs.freeipapi.com"
+  },
+  "tags": []
 }
