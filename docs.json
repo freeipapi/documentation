@@ -20,7 +20,11 @@
       {
         "group": "App",
         "pages": [
-          "app/subscription"
+          "app/subscription",
+          "app/api-keys",
+          "app/ips-and-domains",
+          "app/transactions",
+          "app/account"
         ]
       },
       {
