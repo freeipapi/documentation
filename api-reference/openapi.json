@@ -14,6 +14,7 @@
     }
   ],
   "security": [
+    {},
     {
       "bearerAuth": []
     }
@@ -94,18 +95,72 @@
   "components": {
     "schemas": {
       "IP": {
-        "required": [
-          "name"
-        ],
         "type": "object",
         "properties": {
-          "name": {
-            "description": "The name of the plant",
+          "ipVersion": {
             "type": "string"
           },
-          "tag": {
-            "description": "Tag to specify the type",
+          "ipAddress": {
             "type": "string"
+          },
+          "latitude": {
+            "type": "string"
+          },
+          "longitude": {
+            "type": "string"
+          },
+          "countryName": {
+            "type": "string"
+          },
+          "countryCode": {
+            "type": "string"
+          },
+          "timeZone": {
+            "type": "string"
+          },
+          "zipCode": {
+            "type": "string"
+          },
+          "cityName": {
+            "type": "string"
+          },
+          "regionName": {
+            "type": "string"
+          },
+          "isProxy": {
+            "type": "boolean"
+          },
+          "continent": {
+            "type": "string"
+          },
+          "continentCode": {
+            "type": "string"
+          },
+          "currency": {
+            "type": "object",
+            "properties": {
+              "code": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              }
+            }
+          },
+          "language": {
+            "type": "string"
+          },
+          "timeZones": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "tlds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           }
         }
       },
@@ -124,7 +179,8 @@
     "securitySchemes": {
       "bearerAuth": {
         "type": "http",
-        "scheme": "bearer"
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
       }
     }
   },
