@@ -1,19 +1,15 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M9.06145 23.1079C5.26816 22.3769 -3.39077 20.6274 1.4173 5.06384C9.6344 6.09939 16.9728 14.0644 9.06145 23.1079Z" fill="url(#paint0_linear_17557_2021)"/>
-<path d="M8.91928 23.0939C5.27642 21.2223 0.78371 4.20891 17.0071 0C20.7569 7.19341 19.6212 16.5452 8.91928 23.0939Z" fill="url(#paint1_linear_17557_2021)"/>
-<path d="M8.91388 23.0788C8.73534 19.8817 10.1585 9.08525 23.5699 13.1107C23.1812 20.1229 18.984 26.4182 8.91388 23.0788Z" fill="url(#paint2_linear_17557_2021)"/>
-<defs>
-<linearGradient id="paint0_linear_17557_2021" x1="3.77557" y1="5.91571" x2="5.23185" y2="21.5589" gradientUnits="userSpaceOnUse">
-<stop stop-color="#18E299"/>
-<stop offset="1" stop-color="#15803D"/>
-</linearGradient>
-<linearGradient id="paint1_linear_17557_2021" x1="12.1711" y1="-0.718425" x2="10.1897" y2="22.9832" gradientUnits="userSpaceOnUse">
-<stop stop-color="#16A34A"/>
-<stop offset="1" stop-color="#4ADE80"/>
-</linearGradient>
-<linearGradient id="paint2_linear_17557_2021" x1="23.1327" y1="15.353" x2="9.33841" y2="18.5196" gradientUnits="userSpaceOnUse">
-<stop stop-color="#4ADE80"/>
-<stop offset="1" stop-color="#0D9373"/>
-</linearGradient>
-</defs>
+<svg width="24" height="24" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1024" height="1024" rx="150" fill="url(#paint0_linear_29_4)"/>
+    <path
+        d="M761.5 449.25C761.5 604.657 589.099 766.507 531.206 816.494C525.813 820.549 519.248 822.742 512.5 822.742C505.752 822.742 499.187 820.549 493.794 816.494C435.901 766.507 263.5 604.657 263.5 449.25C263.5 383.211 289.734 319.877 336.43 273.18C383.127 226.484 446.461 200.25 512.5 200.25C578.539 200.25 641.873 226.484 688.57 273.18C735.266 319.877 761.5 383.211 761.5 449.25Z"
+        stroke="white" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+    <path
+        d="M512.5 542.625C564.07 542.625 605.875 500.82 605.875 449.25C605.875 397.68 564.07 355.875 512.5 355.875C460.93 355.875 419.125 397.68 419.125 449.25C419.125 500.82 460.93 542.625 512.5 542.625Z"
+        stroke="white" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+    <defs>
+        <linearGradient id="paint0_linear_29_4" x1="512" y1="0" x2="512" y2="1024" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#7F22FE"/>
+            <stop offset="1" stop-color="#2F0C68"/>
+        </linearGradient>
+    </defs>
 </svg>

@@ -9,41 +9,31 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "support"
-            ]
-          },
-          {
-            "group": "App",
-            "pages": [
-              "app/subscription"
-            ]
-          }
+        "group": "Get Started",
+        "pages": [
+          "index",
+          "support"
         ]
       },
       {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoints",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/get-current"
-            ]
-          }
+        "group": "App",
+        "pages": [
+          "app/subscription"
+        ]
+      },
+      {
+        "group": "API Documentation",
+        "pages": [
+          "api-reference/introduction"
+        ]
+      },
+      {
+        "group": "Endpoints",
+        "pages": [
+          "api-reference/endpoint/get",
+          "api-reference/endpoint/get-current"
         ]
       }
     ],
