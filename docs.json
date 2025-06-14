@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "FreeIPAPI Documentation",
   "colors": {
     "primary": "#7F22FE",
@@ -17,19 +17,13 @@
             "group": "Get Started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "support"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "App",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "app/subscription"
             ]
           }
         ]
