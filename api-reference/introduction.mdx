@@ -3,18 +3,40 @@ title: "Introduction"
 description: "FreeIPAPI provides solid API endpoints that you can use to fetch IP information."
 ---
 
+## Servers
+
+FreeIPAPI provides servers across the globe to ensure low latency and high availability.
+
+### Free Servers
+
+Our free servers are networked under `free.freeipapi.com` and are available for everyone to use.
+
+<Note>
+    Rate limits will apply to the free servers.
+</Note>
+
+### Paid Servers
+
+Here are the list of our servers for the paid plans:
+
+| Server Name | Hostname           | Location      |
+|-------------|--------------------|---------------|
+| US          | `us.freeipapi.com` | United States |
+| DE          | `de.freeipapi.com` | Germany       |
+
 ## Authentication
 
 <Note>
-  Authentication is only required for the PAID and Unlimited subscriptions. If you're using our FREE version, you don't need authentication.
+    Authentication is only required for the PAID and Unlimited subscriptions. If you're using our FREE version, you
+    don't need authentication.
 </Note>
 
-To send unlimited API requests, you can either whitelist your [**Domain or IP address**](https://freeipapi.com/ip-addresses) in the dashboard after subscribing to the unlimited plan or use an API Key.
+To send unlimited API requests, you can either whitelist your [Domain or IP address](https://freeipapi.com/ip-addresses) in the dashboard after subscribing to the unlimited plan or use an API Key.
 
-To use an API Key, you need to first subscribe to the Unlimited plan and then [**generate an API Key**](https://freeipapi.com/api-keys)** **in the dashboard.
+To use an API Key, you need to first subscribe to the Unlimited plan and then [generate an API Key](https://freeipapi.com/api-keys) in the dashboard.
 
 Then you will need to send the API Key in the header of your requests as `Bearer` token.
 
 | Header        | Type   | Example                       |
-| ------------- | ------ | ----------------------------- |
+|---------------|--------|-------------------------------|
 | Authorization | Bearer | `Authorization: Bearer TOKEN` |
