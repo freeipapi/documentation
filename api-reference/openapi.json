@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "http://free.freeipapi.com"
+      "url": "https://free.freeipapi.com"
     },
     {
       "url": "https://de.freeipapi.com"
