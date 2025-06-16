@@ -18,6 +18,16 @@
         ]
       },
       {
+        "group": "App",
+        "pages": [
+          "app/subscription",
+          "app/api-keys",
+          "app/ips-and-domains",
+          "app/transactions",
+          "app/account"
+        ]
+      },
+      {
         "group": "API Documentation",
         "pages": [
           "api-reference/introduction"
