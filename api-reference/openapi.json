@@ -101,69 +101,96 @@
         "type": "object",
         "properties": {
           "ipVersion": {
-            "type": "string"
+            "type": "integer",
+            "example": 6
           },
           "ipAddress": {
-            "type": "string"
+            "type": "string",
+            "format": "ipv6",
+            "example": "2a02:8071:1212:aa0:d914:e794:457d:1212"
           },
           "latitude": {
-            "type": "string"
+            "type": "number",
+            "format": "float",
+            "example": 51.2217
           },
           "longitude": {
-            "type": "string"
+            "type": "number",
+            "format": "float",
+            "example": 6.77616
           },
           "countryName": {
-            "type": "string"
+            "type": "string",
+            "example": "Germany"
           },
           "countryCode": {
-            "type": "string"
+            "type": "string",
+            "example": "DE"
           },
-          "timeZone": {
-            "type": "string"
+          "capital": {
+            "type": "string",
+            "example": "Berlin"
           },
-          "zipCode": {
-            "type": "string"
-          },
-          "cityName": {
-            "type": "string"
-          },
-          "regionName": {
-            "type": "string"
-          },
-          "isProxy": {
-            "type": "boolean"
-          },
-          "continent": {
-            "type": "string"
-          },
-          "continentCode": {
-            "type": "string"
-          },
-          "currency": {
-            "type": "object",
-            "properties": {
-              "code": {
-                "type": "string"
-              },
-              "name": {
-                "type": "string"
-              }
-            }
-          },
-          "language": {
-            "type": "string"
+          "phoneCodes": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "example": [
+              49
+            ]
           },
           "timeZones": {
             "type": "array",
             "items": {
               "type": "string"
-            }
+            },
+            "example": [
+              "Europe/Berlin",
+              "Europe/Busingen"
+            ]
           },
-          "tlds": {
+          "cityName": {
+            "type": "string",
+            "example": "Düsseldorf"
+          },
+          "regionName": {
+            "type": "string",
+            "example": "North Rhine-Westphalia"
+          },
+          "continent": {
+            "type": "string",
+            "example": "Europe"
+          },
+          "continentCode": {
+            "type": "string",
+            "example": "EU"
+          },
+          "currencies": {
             "type": "array",
             "items": {
               "type": "string"
-            }
+            },
+            "example": [
+              "EUR"
+            ]
+          },
+          "languages": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "example": [
+              "de"
+            ]
+          },
+          "asn": {
+            "type": "string",
+            "example": "3209"
+          },
+          "asnOrganization": {
+            "type": "string",
+            "example": "Vodafone GmbH"
           }
         }
       },
