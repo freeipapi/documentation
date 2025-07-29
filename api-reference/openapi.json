@@ -198,7 +198,7 @@
           },
           "isProxy": {
             "type": "boolean",
-            "example": "false"
+            "example": false
           }
         }
       },
