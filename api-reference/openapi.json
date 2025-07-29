@@ -150,6 +150,10 @@
               "Europe/Busingen"
             ]
           },
+          "zipCode": {
+            "type": "string",
+            "example": "40123"
+          },
           "cityName": {
             "type": "string",
             "example": "Düsseldorf"
@@ -191,6 +195,10 @@
           "asnOrganization": {
             "type": "string",
             "example": "Vodafone GmbH"
+          },
+          "isProxy": {
+            "type": "boolean",
+            "example": "false"
           }
         }
       },
